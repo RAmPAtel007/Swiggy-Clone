@@ -413,5 +413,15 @@
       margin: 26px 0px 10px 15px;
       /*    padding: 15px 0px 0px 0px;*/
     }
-
+.dishes{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.dishes-heading{
+  display: block;
+  margin-top: 100px;
+  margin-left:22% ;
+}
   
