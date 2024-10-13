@@ -18,7 +18,7 @@
     /* padding from left and right is 0 and top and bottom is 20px*/
 }
 .navbar .nav {
-    max-width: 1200px;
+    max-width: 1300px;
     min-width: 1200px;
     position: relative;
     /* changes it position relative to its parent  */
@@ -183,7 +183,7 @@
     background: #282c3f;
   }
   .restaurant-list {
-    margin-bottom: 85px;
+    margin-bottom: 105px;
     display: grid;
     grid-template-columns: repeat(4, 25%);
     justify-content: space-between;
@@ -414,14 +414,31 @@
       /*    padding: 15px 0px 0px 0px;*/
     }
 .dishes{
-  margin: 20px;
   padding: 20px;
   display: flex;
   justify-content: center;
+  margin-left: -50px;
 }
 .dishes-heading{
   display: block;
   margin-top: 100px;
   margin-left:22% ;
 }
+.dishes :hover{
+  transform: scale(1.06);
+  cursor: pointer;
+}
+.range{
+    display: flex;
+    justify-content: space-around;
+}
+.Custom button{
+  cursor: pointer;
+    padding: 8px 15px;
+    margin-left: 36px;
+    margin-top: 26px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1.2px solid black;
   
+}
